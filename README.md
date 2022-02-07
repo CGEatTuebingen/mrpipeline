@@ -24,7 +24,7 @@ install.packages("mrpipeline")
 
 # Or the the development version from GitHub:
 # install.packages("devtools")
-devtools::install_github("Sandyyy123/mrpipeline")
+devtools::install_github("CGEatTuebingen/mrpipeline")
 ```
 ## Description of the input files
 
