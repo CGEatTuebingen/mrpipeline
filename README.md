@@ -4,8 +4,6 @@
 
 ## Table of contents
 
-
-- [Workflow overview](#workflow-overview)
 - [Installation](#installation)
 - [Description of the input files](#description-of-the-input-files)
     - [Main data file](#main-data-file)
