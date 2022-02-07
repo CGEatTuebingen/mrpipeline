@@ -120,37 +120,6 @@ report_mr(config = config, output_format = "word_document", output_file = "mr_ou
 # Check the results directly for html ouput file from console
 browseURL(paste('file://', getwd(),'mr_output.html', sep='/')) 
 
-```
 
-To guide your reading, here's a translation between the terminology used in different places:
 
-| function   | role | 
-|--------------|---------|
-| mr_raggr  | proxy snp identification    |
-| import_mr_input   | wrangling    |
-| compute_result_for_exposure | post-hoc power analysis |
-| tangram_results    | generate table for manuscript  |
-| experiment_heatmap    | generate heatamps  |
-| plot_scatter    | generate plots for sensitivit analysis |
-| venn_diagram  | generate venn diagram for overlap among variants |
-| mr_gtex  | generate plots for overlap among variants |
-| mr_pheno  | generate plots for overlap among variants |
-| mr_uni  | generate causal estimates for unique loci |
-| mr_tissue  | generate tissue specific causal estimates|
-| mr_conf | generate causal estimates without SNPs associated with confounders |
-| mr_forest  | generate forest plots for tissue specific SNPs or SNPs not associated with confounders|
 
-## Cheatsheet
-
-## Getting help
-
-## Extended documentation or Further reading
-[Understanding MR metholodogy and workflow](https://link.springer.com/protocol/10.1007%2F978-1-4939-7274-6_29)
-
-[Critical appraisal of an MR manuscript](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-018-0809-3)
-
-[Writing an MR manuscript](https://www.biorxiv.org/content/early/2018/11/02/446807)
-
-[Creating a poster: Example 01](https://www.researchgate.net/publication/328449533_Risky_behaviors_and_Parkinson%27s_disease_A_Mendelian_randomization_study)
-
-[Creating a poster: Example 02](https://www.researchgate.net/publication/328449543_Cardiovascular_Risk_Factors_and_Heart_Failure_with_Preserved_Ejection_Fraction_A_Mendelian_Randomization_Study)
